@@ -4,7 +4,6 @@
 }
 
 body {
-    background-image: url("../images/mochaGrunge.png");
     background-color: #ffffff;
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
@@ -13,35 +12,16 @@ body {
     margin: auto;
     text-align: left; 
     line-height: 150%;
-    z-index: -1;  /*background image always behind everything*/
 }
 
 header {
-    position: fixed;
-    left: 0;
-    top: 0;
+    height: 75px;
     width: 100%;
-    height: 90px;
+    margin-top: 15px;
     margin-bottom: 0px;
-    background-color: white;
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    border-bottom-color: #6b6b6b;  
-    z-index: 1;  /*White background color hides the background image*/
 }
 
-.topNav {
-    width: 960px;
-    height: 100%;
-    border-top-style: solid;
-    border-top-width: 15px;
-    border-top-color: white;  
-    margin-left: auto; /*setting both left and right margin to auto will center in browser*/
-    margin-right: auto; /*setting both left and right margin to auto will center in browser*/
-    background-color:white;
-}
-
-#brand {
+#myName {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #4aaaa5;
     font-size: 30px;
@@ -85,20 +65,40 @@ h1 {
 }
 
 #content {
-    position: relative;
-    top: 90px; /*Same height as header*/
-    margin-bottom: 60px; /*Same height as footer*/
-    padding: 20px 0px 20px 0px;
+    background-image: url("../images/mochaGrunge.png");
+    height: 744px;
+    position:absolute;
+    right:0;
+    left:0;
+    border: thick;
+    padding: 20px 20px 60px 20px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #6b6b6b;
+}
+
+#contact {
+    background-image: url("../images/mochaGrunge.png");
+    height: 744px;
+    position:absolute;
+    right:0;
+    left:0;
+    border: thick;
+    padding: 20px 20px 60px 20px;
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: #6b6b6b;
+
 }
 
 section {
-    position: relative;
-    top: 0px;
     max-width: 960px;
     margin: auto;
     background-color:#ffffff;
+}
+
+#wrapper {
     Padding-bottom: 5px;
-    overflow:auto;
 }
 
 #contact {
@@ -123,44 +123,11 @@ img {
     margin-left: 18px;
 }
 
-.gallery {
-    float: left;
-    position: relative;
-    width: 33%; /*Looks like a 3xn grid for the photo gallery*/
-}
-
 .portfolioImgs {
-    width: 300px; 
+    width: 300px; /* Not setting height so that image will stay porportional to original*/
     height: 180px;
-    padding: 10px 10px 0px 10px;
-}
-
-/* Giving credit to photographer for images */
-figcaption {
-    padding-left: 10px;
-    padding-top: 0px;
-    font-size: 10px;
-    line-height: 100%;
-}
-
-/* Container holding the image and the text */
-.thumbs {
-    position: relative;
-    margin: 18px;
-}
-
-/* Block of text over the images */
-.text-block {
-    position: absolute;
-    width: 280px;
-    height: 45px;
-    bottom: 25px;
-    left: 10px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 0px 0px 54px 0px;
-    line-height: 100%;
-    text-align:center;
+    padding: 10px;
+    margin-left: 18px;
 }
 
 p {
