@@ -126,7 +126,7 @@ img {
 .gallery {
     float: left;
     position: relative;
-    width: 33%; /*Looks like a 3xn grid for the photo gallery*/
+    width: 34%; /*Looks like a 3xn grid for the photo gallery*/
 }
 
 .portfolioImgs {
