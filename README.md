@@ -6,6 +6,8 @@ Bootcamp Assignment 8/5/2018 - That Portfolio Though
 ###Extras
 -Header sticks to top of browser
 -Footer sticks to bottom of browser
+-Nav links styled (no blue underline!)
+-
 
 ###Variations from assignment
 -top border of content section moved to bottom border of header for visual purposes.  
