@@ -8,6 +8,7 @@ Bootcamp Assignment 8/5/2018 - That Portfolio Though
 -Footer sticks to bottom of browser
 -Nav links styled (no blue underline!)
 -used figcaption to give credit to image photographer
+-Styled links, name (branding) and gallary images with hover, including changing curser.  
 
 ###Variations from assignment
 -top border of content section moved to bottom border of header for visual purposes.  

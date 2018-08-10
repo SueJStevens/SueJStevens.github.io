@@ -27,11 +27,17 @@ header {
     border-bottom-style: solid;
     border-bottom-width: 5px;
     border-bottom-color: #6b6b6b;  
-    z-index: 1;  /*White background color hides the background image*/
+    z-index: 99;  /*White background color hides the background image*/
 }
 
+a {
+    color: inherit;
+    text-decoration: none; 
+}
+
+
 .topNav {
-    width: 960px;
+    max-width: 960px;
     height: 100%;
     border-top-style: solid;
     border-top-width: 15px;
@@ -54,11 +60,16 @@ header {
     padding: 18px;
 }
 
+#brand:hover {
+    background-color: #1F5D5A;
+    cursor: pointer;
+}
+
 nav {
-    float: left;
+    float: right;
     position: relative;
     left: 0px;
-    width: 700px; /*Left + Width = 700px + 260px in specs = 960 total width in specs*/    
+    max-width: 700px; /*Left + Width = 700px + 260px in specs = 960 total width in specs*/    
     height: 100%;
     text-align: right; 
     padding-top: 28px;   
@@ -71,6 +82,11 @@ nav {
     text-decoration: none;
     padding: 10px;
 }
+
+.navitem:hover {
+    color: #0000EE;
+}
+
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -163,6 +179,11 @@ figcaption {
     text-align:center;
 }
 
+.text-block:hover {
+    background-color: #1F5D5A;
+    cursor: pointer;
+}
+
 p {
     position: relative;
     left: 15px;
@@ -183,6 +204,10 @@ input {
 
 .input {
     padding-bottom: 20px;
+}
+
+.inputbox {
+    padding: 5px;
 }
 
 
